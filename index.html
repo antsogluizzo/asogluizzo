@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anthony Sogluizzo | Senior Technical Product Manager</title>
+<meta name="description" content="Portfolio of Anthony Sogluizzo, Senior Technical Product Manager building AI-powered platforms for fraud, loss prevention and investigations.">
+<style>
+:root{--navy:#14284b;--ink:#1d2433;--muted:#4a5568;--bg:#f6f8fb;--card:#fff;--line:#d5dce8;--accent:#0b5cad}
+*{box-sizing:border-box}
+body{margin:0;font-family:Calibri,"Segoe UI",Arial,sans-serif;font-size:18px;line-height:1.55;color:var(--ink);background:var(--bg)}
+a{color:var(--accent)}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px}
+header.hero{background:var(--navy);color:#fff;padding:56px 0}
+.hero .wrap{display:flex;gap:36px;align-items:center;flex-wrap:wrap}
+.photo{width:190px;height:190px;border-radius:50%;border:4px solid #fff;object-fit:cover;background:#fff;color:var(--navy);display:flex;align-items:center;justify-content:center;font-size:56px;font-weight:700;overflow:hidden;flex:none;position:relative}
+.photo span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:0}
+.photo img{position:absolute;inset:0;z-index:1;width:100%;height:100%;object-fit:cover}
+h1{margin:0 0 6px;font-size:44px;line-height:1.1}
+.role{font-size:22px;font-weight:700;margin:0 0 14px}
+.tagline{font-size:24px;font-weight:700;line-height:1.3;max-width:640px;margin:0 0 14px}
+.hero p{margin:0 0 16px;max-width:600px}
+.btn{display:inline-block;background:#fff;color:var(--navy);font-weight:700;padding:10px 18px;border-radius:6px;text-decoration:none;margin-right:10px}
+.btn.alt{background:transparent;color:#fff;border:2px solid #fff}
+section{padding:44px 0}
+h2{color:var(--navy);font-size:30px;margin:0 0 6px}
+.sub{color:var(--muted);margin:0 0 24px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.stat b{display:block;font-size:34px;color:var(--navy)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:22px}
+.card h3{margin:0 0 4px;color:var(--navy);font-size:22px}
+.tag{font-size:14px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.04em}
+.card ul{padding-left:20px;margin:10px 0 0}
+.card li{margin-bottom:6px}
+.feature{border:2px solid var(--navy)}
+.tl{border-left:3px solid var(--navy);padding-left:20px}
+.tl div{margin-bottom:18px}
+.tl b{color:var(--navy)}
+footer{background:var(--navy);color:#fff;padding:32px 0}
+footer a{color:#fff}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="photo" aria-label="Photo of Anthony Sogluizzo">
+      <!-- Photo: anthony.jpg in this folder. If it is missing, initials show instead. -->
+      <img src="anthony.jpg" alt="Anthony Sogluizzo" onerror="this.remove()">
+      <span>AS</span>
+    </div>
+    <div>
+      <h1>Anthony Sogluizzo</h1>
+      <p class="role">Senior Technical Product Manager</p>
+      <p class="tagline">I build AI-powered products that cut fraud, recover millions and deliver a clear return on investment.</p>
+      <p>I build AI-powered platforms that help investigators stop fraud and theft at Amazon scale. 10+ years across hardware, software and GenAI, with a record of tying product work to dollars saved.</p>
+      <a class="btn" href="https://www.linkedin.com/in/anthonysogluizzo/">LinkedIn</a>
+      <a class="btn alt" href="mailto:sogluizzo.anthony@gmail.com">Email me</a>
+      <a class="btn alt" href="Anthony_Sogluizzo_Resume_2026.pdf" download>Download resume (PDF)</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="wrap">
+    <h2>Impact at a glance</h2>
+    <p class="sub">Annual figures from my work at Amazon.</p>
+    <div class="stats">
+      <div class="stat"><b>$171M</b>annual loss avoidance from a GenAI platform strategy</div>
+      <div class="stat"><b>$46.5M</b>annual loss avoidance across five 2025 releases</div>
+      <div class="stat"><b>$50M</b>annual recovered losses from FBA fraud investigation</div>
+      <div class="stat"><b>46%</b>faster confirmed-case cycle time in 2026</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Projects</h2>
+    <p class="sub">A selection of what I have built and led.</p>
+    <div class="grid">
+
+      <article class="card feature">
+        <span class="tag">AI tool, 2026</span>
+        <h3>AI User Story Quality Scorer</h3>
+        <p>An AI tool that grades user stories so product, engineering and stakeholders share one definition of "ready."</p>
+        <ul>
+          <li>Claude on AWS Bedrock scores each story and its child tasks on a 100-point, nine-dimension rubric.</li>
+          <li>The rubric ships as a reusable skill that any AI assistant can load. Scores are stored append-only for audit.</li>
+          <li>Baseline of 80 stories and 221 child tasks: average 61 on an earlier program, 78 on the current one.</li>
+          <li>Goal: raise the product team's bar and cut requirements clarification churn.</li>
+        </ul>
+      </article>
+
+      <article class="card feature">
+        <span class="tag">AI operations, 2026</span>
+        <h3>Agent-run product operations</h3>
+        <p>Scheduled AI agents handle the assembly work so I spend time on review and decisions.</p>
+        <ul>
+          <li>Leadership status drafts built from work-tracking systems.</li>
+          <li>Meeting agendas published the day before each meeting.</li>
+          <li>1:1 prep notes that refresh themselves as a running log.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <span class="tag">Platform, 2026</span>
+        <h3>Unified investigation platform</h3>
+        <p>One consolidated platform for investigators, replacing a patchwork of separate tools.</p>
+        <ul>
+          <li>Aligned scope for a March 2027 launch.</li>
+          <li>Ran two user acceptance demos that surfaced investigator feedback before the pilot.</li>
+          <li>Finalized the lead prioritization model and agreed a shared case-severity service with a partner team.</li>
+          <li>Built a 3-year, 35-capability roadmap.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <span class="tag">Strategy, 2026</span>
+        <h3>2027 strategic investment plan</h3>
+        <ul>
+          <li>Authored the 2027 investment plan for a portfolio of about 60 projects.</li>
+          <li>Sized each project by headcount and effort and recommended what to fund above and below the line.</li>
+                  </ul>
+      </article>
+
+      <article class="card">
+        <span class="tag">Results, 2026</span>
+        <h3>Detection and investigation outcomes</h3>
+        <ul>
+          <li>Confirmed-case cycle time down 46%, from 47 to 25 days, with $91.3M in confirmed loss investigated.</li>
+          <li>ML lead model beat its entitlement target by 50%; precision rose from 2.3% to 40.0%.</li>
+          <li>One Finance-certified loss source within 5% of Finance numbers, replacing three that disagreed.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <span class="tag">GenAI, 2025</span>
+        <h3>GenAI platform strategy</h3>
+        <ul>
+          <li>Unified 40+ applications using AI agents on Claude and AWS Bedrock.</li>
+          <li>Cut AWS expenses 30% and produced $171M in annual loss avoidance.</li>
+          <li>Wrote the PR/FAQ and led the offsite that secured leadership alignment and the 2026 roadmap.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <span class="tag">Product, 2025</span>
+        <h3>FBA seller fraud investigation app</h3>
+        <ul>
+          <li>Raised investigator efficiency 50%.</li>
+          <li>Beat the annual goal by 25% ($50M against $40M planned) on a lean budget.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <span class="tag">Delivery, 2025</span>
+        <h3>Five releases, $46.5M</h3>
+        <ul>
+          <li>Restored a critical EMEA platform.</li>
+          <li>Launched an EU compliance system that blocks bad actors from picking up trailers ($13M).</li>
+          <li>Cut investigator data transfer from 1 to 2 hours to seconds by integrating two case systems.</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Before Amazon</h2>
+    <p class="sub">Hardware, robotics and program leadership across four companies.</p>
+    <div class="grid">
+      <article class="card">
+        <span class="tag">Carrier Fire &amp; Security, 2023 to 2024</span>
+        <h3>Digital partnerships and R&amp;D</h3>
+        <ul>
+          <li>Launched the first pilot of a Marriott and Carrier partnership, which secured a $900K test rollout of a smart thermostat.</li>
+          <li>Grew a solutions portfolio to $1.2M through a partnership with AWS and design thinking sessions with product and engineering.</li>
+          <li>Built and mentored a team of program managers that drove $1.0M of new R&amp;D investment.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <span class="tag">Opentrons Labworks, 2020 to 2022</span>
+        <h3>Program management office</h3>
+        <ul>
+          <li>Built the program management office and a phase-gate process, cutting scope and schedule alignment time 50%.</li>
+          <li>Led a new calibration procedure that cut calibration errors 80% and robot setup time 50%.</li>
+          <li>Rolled out Jira and Confluence and raised sprint velocity 20%.</li>
+          <li>Defined a System on Module architecture to move off Raspberry Pi 3 and support a $160M+ robotics portfolio.</li>
+          <li>Promoted once.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <span class="tag">Zebra Technologies, 2014 to 2020</span>
+        <h3>Enterprise mobile computing</h3>
+        <ul>
+          <li>Drove the 5G strategy for a next-generation mobile computer portfolio representing $85M+ in sales.</li>
+          <li>Solved a $10M freight dimensioning accuracy problem for Fortune 500 logistics customers using 3D dimensioning technology.</li>
+          <li>Cut premium product cannibalization 35% with a process for evaluating feature requests on a lower-cost line.</li>
+          <li>Promoted twice.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <span class="tag">Latch, 2019</span>
+        <h3>Engineering program management</h3>
+        <ul>
+          <li>Built one project plan across embedded, front-end, cloud and hardware teams.</li>
+          <li>Release cycles ran 20% faster and manufacturing errors fell 50%.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Career</h2>
+    <div class="tl">
+      <div><b>Amazon, Senior Technical Product Manager</b><br>Loss prevention and investigations technology. Managed and mentored a team of product managers.</div>
+      <div><b>Carrier Fire &amp; Security, Sr Manager, Digital Program Management</b><br>Launched a pilot with Marriott and Carrier that secured a $900K test rollout.</div>
+      <div><b>Opentrons Labworks, Director, Program Management Office</b><br>Built the PMO. Cut calibration errors 80% and setup time 50%.</div>
+      <div><b>Zebra Technologies, Senior Product Manager</b><br>Drove a 5G strategy for a portfolio representing $85M+ in sales. Promoted twice.</div>
+      <div><b>Education</b><br>MBA, University of Scranton. BS in Business Management, Farmingdale State University.</div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <b>Let's talk.</b>
+    <a href="https://www.linkedin.com/in/anthonysogluizzo/">linkedin.com/in/anthonysogluizzo</a> |
+    <a href="mailto:sogluizzo.anthony@gmail.com">sogluizzo.anthony@gmail.com</a>
+  </div>
+</footer>
+</body>
+</html>
